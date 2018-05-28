@@ -1,0 +1,19 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Typescibt by making a Blockchain",
+  "main": "index.js",
+  "repository": "https://github.com/wooheet/typechain.git",
+  "author": "wooheet <godjsdleka@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "prestart": "tsc"
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.21"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
